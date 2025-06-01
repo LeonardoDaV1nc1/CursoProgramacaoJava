@@ -51,7 +51,7 @@ public class Vetores {
 			System.out.println("Aluguel registrado com sucesso para o quarto " + quartoEscolhido + ".");
 		}
 
-		System.out.println("\n--- Relatório de Ocupações do Pensionato ---");
+		System.out.println("\n--- Relatório de Ocupações dos Quartos ---");
 		for (int i = 0; i < quartos.length; i++) {
 			if (quartos[i] != null) {
 				System.out.println("Quarto " + i + ": " + quartos[i].getNome() + ", " + quartos[i].getEmail());
